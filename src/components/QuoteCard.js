@@ -36,7 +36,8 @@ const QuoteCard = ({ quote, removeQuote, upvoteQuote, downvoteQuote }) =>
           </button>
         </div>
         {/* <div>Votes: {Render Quote Votes}</div> */}
-        <div>Vote: {quote.votes}</div>
+        <p>Votes:</p>
+        {quote.votes}
       </div>
     </div>
   </div>;
